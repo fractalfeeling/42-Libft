@@ -1,35 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
+/*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lwee <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/08 16:48:54 by lwee              #+#    #+#             */
-/*   Updated: 2022/03/16 15:43:46 by lwee             ###   ########.fr       */
+/*   Created: 2022/03/16 19:41:13 by lwee              #+#    #+#             */
+/*   Updated: 2022/03/16 20:25:41 by lwee             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
+char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	size_t	len;
-	size_t	i;
+	char	*sub;
+	size_t	len_sub;
 
-	len = 0;
-	while (src[len])
-		len++;
-	i = 0;
-	if (dstsize > 0)
-	{
-		while (src[i] && (i < dstsize - 1))
-		{
-			dst[i] = src[i];
-			i++;
-		}
-	}
-	if (i < dstsize)
-		dst[i] = 0;
-	return (len);
+	if (!s)
+		return (NULL);
+	if (start > ft_strlen(s))
+		return (ft_strdup(""));
+	len_sub = ft_strlen(s + start);
+	if (len_sub < len)
+		len = len_sub;
+	sub = malloc(sizeof(s) * (len + 1));
+	ft_strlcpy(sub, s + start, len + 1);
+	return (sub);
 }
