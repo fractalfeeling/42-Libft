@@ -58,7 +58,7 @@ In this project you will create your own functions based on existing functions i
 | ``ft_lstiter`` | Applies a function to the content of every node of the linked list. |
 | ``ft_lstmap`` | Applies function to a copy of the list, freeing when necessary. |
 
-## Grade
+## Score
 [![lwee's 42 Libft Score](https://badge42.vercel.app/api/v2/cl5pppwsq001109mdiigy33za/project/2460041)](https://github.com/JaeSeoKim/badge42)
 
 ## Resources
