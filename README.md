@@ -1,7 +1,7 @@
 # 42-Libft
 *Your very first own library*
 
-## Intro
+## Introduction
 Introductory project to the 42 cursus. Recode of a few functions of the C standard library as well as some other utility functions that will be used for other projects in the cursus.
 
 ## Outline
