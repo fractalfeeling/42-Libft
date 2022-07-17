@@ -10,8 +10,29 @@ In this project you will create your own functions based on existing functions i
 ## Function Overview
 | Function | Description |
 | :------: | :---------: |
-| ``ft_atoi`` | Reads a String, and, after ignoring spaces with ``ft_isspace``, saves the string into an integer |
-| ``ft_bzero`` | Writes ``n`` zeroes to the string ``s`` |
+| ``ft_isalpha`` | Checks if a character is an alphabetical character. Returns ```1``` if true, ```0``` if false. |
+| ``ft_isdigit`` | Checks if a character is a digit. Returns ```1``` if true, ```0``` if false. |
+| ``ft_isalnum`` | Checks if a character is an alphabetical character or digit. Returns ```1``` if true, ```0``` if false. |
+| ``ft_isascii`` | Checks if a character belongs to the ASCII table. Returns ```1``` if true, ```0``` if false. |
+| ``ft_isprint`` | Checks if a character is printable. Returns ```1``` if true, ```0``` if false. |
+| ``ft_toupper`` | Converts a character to upper case. The value returned is that of the converted letter. |
+| ``ft_tolower`` | Converts a character to lower case. The value returned is that of the converted letter. |
+| ``ft_bzero`` | Fills the first ```n``` bytes of a memory area with zeroes. |
+| ``ft_memset`` | Fills the first ```n``` bytes of a memory area with a specified character. Returns a pointer to the memory area. |
+| ``ft_memcpy`` | Copies ```n``` bytes from a memory area to another, ignoring possible overlaps. Returns a pointer to the copied destination. |
+| ``ft_memmove`` | Copies ```n``` bytes from a memory area to another, preventing possible overlaps. Returns a pointer to the copied destination. |
+| ``ft_memchr`` | Scans ```n``` bytes of a memory area for character and returns pointer to the matching byte or ```NULL``` if not found. |
+| ``ft_memcmp`` | Compares first ```n``` bytes of two memory areas. Returns ```0``` if a matching character is found, otherwise a non-zero value. |
+| ``ft_strlen`` | Returns length of a string. |
+| ``ft_strlcpy`` | Concatenate two strings, NuL-terminating the result. Returns the total length of the string that function tried to create. |
+| ``ft_strlcat`` | Copies ```n - 1``` from a source string to a destination string. NUL-terminating the result. Returns the total length of the string that function tried to create. |
+| ``ft_strchr`` |  |
+| ``ft_strrchr`` |  |
+| ``ft_strncmp`` |  |
+| ``ft_strnstr`` |  |
+| ``ft_atoi`` |  |
+| ``ft_`` |  |
+
 | ``ft_calloc`` | Reserves ``x`` blocks of ``y`` bits of memory
 
 ## Grade
