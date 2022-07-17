@@ -24,8 +24,8 @@ In this project you will create your own functions based on existing functions i
 | ``ft_memchr`` | Scans ```n``` bytes of a memory area for character and returns pointer to the matching byte or ```NULL``` if not found. |
 | ``ft_memcmp`` | Compares first ```n``` bytes of two memory areas. Returns ```0``` if a matching character is found, otherwise a non-zero value. |
 | ``ft_strlen`` | Returns length of a string. |
-| ``ft_strlcpy`` | Concatenate two strings, NuL-terminating the result. Returns the total length of the string that function tried to create. |
-| ``ft_strlcat`` | Copies ```n - 1``` from a source string to a destination string. NUL-terminating the result. Returns the total length of the string that function tried to create. |
+| ``ft_strlcat`` | Concatenate two strings, NuL-terminating the result. Returns the length of the concatenated string. |
+| ``ft_strlcpy`` | Copies ```n - 1``` from a source string to a destination string, NUL-terminating the result. Returns the length of the source string. |
 | ``ft_strchr`` |  |
 | ``ft_strrchr`` |  |
 | ``ft_strncmp`` |  |
