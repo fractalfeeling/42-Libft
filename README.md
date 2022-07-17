@@ -29,7 +29,7 @@ In this project you will create your own functions based on existing functions i
 | ``ft_strchr`` | Looks for the first occurence of a character in a string.<br>Returns the pointer to that character. |
 | ``ft_strrchr`` | Looks for the last occurence of a character in a string.<br>Returns the pointer to that character. |
 | ``ft_strncmp`` | Compares two strings up to the n-th character.<br>Returns 0 if identical, otherwise a non-zero value. |
-| ``ft_strnstr`` | Tries to find the first occurence of a substring in a second string before the n-th char is reached.<br>Returns a pointer to the substring, NULL if not found. |
+| ``ft_strnstr`` | Finds the first occurence of a substring in a second string before the n-th char is reached.<br>Returns a pointer to the substring, NULL if not found. |
 | ``ft_atoi`` | Converts a string to an integer. Returns the converted value. |
 | ``ft_calloc`` | Allocates x blocks of y bits of memory. The memory is set to zero.<br>Returns a pointer to the memory area. |
 | ``ft_strdup`` | Allocates memory and duplicates string. Returns pointer to duplicated string.<br>Returns NULL if allocation fails. |
