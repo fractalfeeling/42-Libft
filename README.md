@@ -18,7 +18,7 @@ In this project you will create your own functions based on existing functions i
 | ``ft_toupper`` | Converts a character to upper case. The value returned is that of the converted letter. |
 | ``ft_tolower`` | Converts a character to lower case. The value returned is that of the converted letter. |
 | ``ft_bzero`` | Fills the first n bytes of a memory area with zeroes. |
-| ``ft_memset`` | Fills the first n bytes of a memory area with a specified character. Returns a pointer to the memory area. |
+| ``ft_memset`` | Fills the first n bytes of a memory area with a specified character.\n Returns a pointer to the memory area. |
 | ``ft_memcpy`` | Copies n bytes from a memory area to another, ignoring possible overlaps. Returns a pointer to the destination. |
 | ``ft_memmove`` | Copies n bytes from a memory area to another, preventing possible overlaps. Returns a pointer to the destination. |
 | ``ft_memchr`` | Scans n bytes of a memory area for character and returns pointer to the matching byte or NULL if not found. |
