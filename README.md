@@ -25,7 +25,7 @@ In this project you will create your own functions based on existing functions i
 | ``ft_memcmp`` | Compares first ```n``` bytes of two memory areas. Returns ```0``` if identical, otherwise a non-zero value. |
 | ``ft_strlen`` | Returns length of a string. |
 | ``ft_strlcat`` | Concatenate two strings, NuL-terminating the result. Returns the length of the concatenated string. |
-| ``ft_strlcpy`` | Copies ```n - 1``` from a source string to a destination string. Returns the length of the source string. |
+| ``ft_strlcpy`` | Copies ```n - 1``` bytes from a source string to a destination string. Returns the length of the source string. |
 | ``ft_strchr`` | Looks for the first occurence of a character in a string. Returns the pointer to that character. |
 | ``ft_strrchr`` | Looks for the last occurence of a character in a string. Returns the pointer to that character. |
 | ``ft_strncmp`` | Compares two strings up to the n-th character. Returns ```0``` if identical, otherwise a non-zero value. |
@@ -35,7 +35,7 @@ In this project you will create your own functions based on existing functions i
 | ``ft_strdup`` | Allocates memory and duplicates string. Returns pointer to duplicated string. |
 | ``ft_substr`` | Allocates memory and returns a substring from the n-th character of a string. |
 | ``ft_strjoin`` | Allocates memory and returns and returns a new string, which is the result of the concatenation of two strings.|
-| ``ft_strtrim`` | Allocates memory and returns a copy of a string with occurences of characters from a set removed from its beginning and end.  |
+| ``ft_strtrim`` | Allocates memory and returns a copy of a string with occurences of characters removed from its start and end.  |
 | ``ft_split`` | Allocates memory and returns an array of strings obatained by splitting according to a given separator character. |
 | ``ft_itoa`` | Allocates memory and returns a string representing the integer received as an argument. |
 | ``ft_strmapi`` | Applies a function to each character of a string, creating a new string. Returns the new string. |
