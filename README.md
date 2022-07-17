@@ -32,13 +32,13 @@ In this project you will create your own functions based on existing functions i
 | ``ft_strnstr`` | Finds the first occurence of a substring in a second string before the n-th char is reached.<br>Returns a pointer to the substring, NULL if not found. |
 | ``ft_atoi`` | Converts a string to an integer. Returns the converted value. |
 | ``ft_calloc`` | Allocates x blocks of y bits of memory. The memory is set to zero.<br>Returns a pointer to the memory area. |
-| ``ft_strdup`` | Allocates memory and duplicates string. Returns pointer to duplicated string.<br>Returns NULL if allocation fails. |
-| ``ft_substr`` | Allocates memory and returns a substring from the n-th character of a string.<br>Returns NULL if allocation fails. |
-| ``ft_strjoin`` | Allocates memory and returns and returns a new string, which is the result of the concatenation of two strings.<br>Returns NULL if allocation fails. |
-| ``ft_strtrim`` | Allocates memory and returns a copy of a string with occurences of characters removed from its start and end.<br>Returns NULL if allocation fails. |
-| ``ft_split`` | Allocates memory and returns an array of strings obatained by splitting according to a given separator character.<br>Returns NULL if allocation fails. |
-| ``ft_itoa`` | Allocates memory and returns a string representing the integer received as an argument.<br>Returns NULL if allocation fails. |
-| ``ft_strmapi`` | Applies a function to each character of a string, creating a new string. Returns the new string.<br>Returns NULL if allocation fails. |
+| ``ft_strdup`` | Allocates memory and duplicates string. Returns pointer to duplicated string. Returns NULL if allocation fails. |
+| ``ft_substr`` | Allocates memory and returns a substring from the n-th character of a string. Returns NULL if allocation fails. |
+| ``ft_strjoin`` | Allocates memory and returns and returns a new string, which is the result of the concatenation of two strings. Returns NULL if allocation fails. |
+| ``ft_strtrim`` | Allocates memory and returns a copy of a string with occurences of characters removed from its start and end. Returns NULL if allocation fails. |
+| ``ft_split`` | Allocates memory and returns an array of strings obtained by splitting according to a given separator character. Returns NULL if allocation fails. |
+| ``ft_itoa`` | Allocates memory and returns a string representing the integer received as an argument. Returns NULL if allocation fails. |
+| ``ft_strmapi`` | Applies a function to each character of a string, creating a new string. Returns the new string. Returns NULL if allocation fails. |
 | ``ft_striteri`` | Applies a function on each character of a string, modifying the original string. |
 | ``ft_putchar_fd`` | Outputs a character to the given file descriptor. |
 | ``ft_putstr_fd`` | Outputs a string to the given file descriptor. |
