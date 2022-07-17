@@ -46,6 +46,7 @@ In this project you will create your own functions based on existing functions i
 | ``ft_putnbr_fd`` | Outputs an integer the given file descriptor. |
 
 ## Bonus Functions
+| Function | Description |
 | ``ft_lstnew`` | Allocates memory and creates new node.  |
 | ``ft_lstadd_front`` | Adds new node at the beginning of the list. |
 | ``ft_lstsize`` | Returns the number of nodes in a list. |
