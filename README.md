@@ -59,7 +59,7 @@ In this project you will create your own functions based on existing functions i
 | ``ft_lstmap`` | Applies function to a copy of the list, freeing when necessary. |
 
 ## Score
-[![lwee's 42 Libft Score](https://badge42.vercel.app/api/v2/cl5pppwsq001109mdiigy33za/project/2460041)](https://github.com/JaeSeoKim/badge42)
+![lwee's Score](https://github.com/fractalfeeling/uploads/blob/master/images/score_bonus.png)
 
 ## Resources
 * [Libft subject document](https://github.com/fractalfeeling/uploads/blob/4e5f7f060cdb8824ca8373d4aa3c65d795a3464b/docs/Libft.pdf)
